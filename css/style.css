@@ -987,6 +987,15 @@ img {
     width: 100%;
   }
 }
+@media only screen and (min-width: 320px) and (max-width: 427.95px) {
+  .modal {
+    max-width: 300px;
+    padding: 72px 8px 8px 8px;
+  }
+  .modal__form-input {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 320px) and (max-width: 767.95px) {
   .hamburger-open {
     display: block;
@@ -1120,7 +1129,12 @@ img {
     margin-left: 0;
   }
 }
-
+@media only screen and (min-width: 428px) and (max-width: 767.95px) {
+  .modal {
+    max-width: 392px;
+    padding: 72px 16px 16px 16px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .logo {
     margin-right: 120px;
@@ -1144,8 +1158,13 @@ img {
     gap: 40px;
     margin-bottom: 284px;
   }
+  .benefits {
+    padding: 96px 0;
+  }
   .benefits__list {
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .benefits__list-item {
     min-width: 356px;
@@ -1162,9 +1181,17 @@ img {
   .services {
     display: none;
   }
+  .team {
+    padding: 96px 0;
+  }
   .team__list {
     flex-wrap: wrap;
     justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .customers {
+    padding: 96px 0;
   }
   .customers__list {
     flex-wrap: wrap;
