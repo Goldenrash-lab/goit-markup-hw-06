@@ -622,7 +622,7 @@ img {
   width: 408px;
   min-height: 584px;
   margin: 0 auto;
-  margin-top: 80px;
+  /* margin-top: 80px; */
 
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
@@ -853,8 +853,10 @@ img {
 .mobile-menu {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  margin-bottom: 284px;
+  /* gap: 40px;
+  margin-bottom: 284px; */
+  gap: 35px;
+  margin-bottom: 165px;
 }
 .mobile__link {
   font-family: Roboto;
@@ -865,7 +867,7 @@ img {
   text-transform: capitalize;
   color: var(--body-text);
 }
-.mobile__link:active {
+.current-link {
   color: var(--ocean);
 }
 
@@ -888,12 +890,13 @@ img {
 
 .mobile__address-tel {
   color: var(--iris);
-  font-size: 36px;
+  font-size: 23px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
+
 .mobile__address-mail {
   color: #434455;
   font-size: 20px;
@@ -903,7 +906,9 @@ img {
 }
 .mobile__social-list {
   display: flex;
-  gap: 56px;
+  /* gap: 56px;
+   */
+  gap: 32px;
 }
 .mobile__social-link {
   color: #fff;
@@ -1089,6 +1094,16 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.48px;
+  }
+  .mobile__address-tel {
+    font-size: 36px;
+  }
+  .mobile__social-list {
+    gap: 56px;
+  }
+  .mobile-menu {
+    gap: 40px;
+    margin-bottom: 284px;
   }
   .benefits__list {
     flex-wrap: wrap;
